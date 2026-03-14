@@ -1,0 +1,20 @@
+CREATE TABLE daily_activity (
+    user_id BIGINT,
+    activity_date DATE,
+    total_steps INT,
+    TotalDistance FLOAT,
+    TrackerDistance FLOAT,
+    LoggedActivitiesDistance FLOAT,
+    VeryActiveDistance FLOAT,
+    ModeratelyActiveDistance FLOAT,
+    LightActiveDistance FLOAT,
+    SedentaryActiveDistance FLOAT,
+    VeryActiveMinutes INT,
+    FairlyActiveMinutes INT,
+    LightlyActiveMinutes INT,
+    SedentaryMinutes INT,
+    calories INT,
+    incomplete BOOLEAN,
+    calories_per_step FLOAT,
+    PRIMARY KEY (user_id, activity_date)
+);
