@@ -87,7 +87,7 @@ The cleaned datasets are exported to:
 
 - Average **7,638 steps per day** (below the 10,000 recommendation)
 - Highly active users sleep **less** (6.6 hours) than low-activity users (7.6 hours)
-- Peak activity hours: **12 PM** and **6–7 PM**
+- Peak activity hours: **12 PM** and **6-7 PM**
 - Users spend an average of **39 minutes awake in bed**
 - Higher step counts generally correlate with higher calorie burn
 
