@@ -26,16 +26,16 @@ The dataset includes:
 
 ## Pipeline Architecture
 
-Raw CSV files
-↓
-Extract (Python)
-↓
-Transform (Pandas data cleaning & feature engineering)
-↓
-Clean CSV files
-↓
-Load to MySQL database
-↓
+Raw CSV files  
+↓  
+Extract (Python)  
+↓  
+Transform (Pandas data cleaning & feature engineering)  
+↓  
+Clean CSV files  
+↓  
+Load to MySQL database  
+↓  
 SQL analysis in Jupyter Notebook
 
 ---
