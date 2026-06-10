@@ -20,11 +20,11 @@ try:
     heartrate.to_csv("data/clean/heart_rate.csv", index=False)
     weight.to_csv("data/clean/weight.csv", index=False)
 
-    daily.to_sql("daily_activity", engine, if_exists="replace", index=False)
-    steps.to_sql("hourly_steps", engine, if_exists="replace", index=False)
-    sleep.to_sql("sleep", engine, if_exists="replace", index=False)
-    heartrate.to_sql("heartrate_seconds", engine, if_exists="replace", index=False)
-    weight.to_sql("weight_log", engine, if_exists="replace", index=False)
+    daily.to_sql("daily_activity", engine, if_exists="append", index=False)
+    steps.to_sql("hourly_steps", engine, if_exists="append", index=False)
+    sleep.to_sql("sleep", engine, if_exists="append", index=False)
+    heartrate.to_sql("heartrate_seconds", engine, if_exists="append", index=False)
+    weight.to_sql("weight_log", engine, if_exists="append", index=False)
 
     print("Pipeline finished successfully")
 
